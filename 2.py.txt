@@ -1,0 +1,10 @@
+import random
+
+array=[]
+i=0
+while i<=10:
+    n = random.randint(0,100)
+    if n not in array:
+        array.append(n)
+        i+=1
+print(array)    

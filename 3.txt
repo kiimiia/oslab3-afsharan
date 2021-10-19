@@ -1,0 +1,16 @@
+x=1
+i=1
+while x>0:
+    
+
+    if i==1:
+        list=[ word for word in input(" enter your sentece ").split( )]
+        a=len(list)
+        print ("number of words :  ", a)
+        i=int(input(" insert 1 for start "))
+        
+
+    else :
+        print(" Bye")
+        input("press enter for exit!")
+        break

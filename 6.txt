@@ -1,0 +1,26 @@
+x=1
+i=1
+while x>0:
+    
+    if i==1:
+        list=[int (x)for x in input ("enter your number with space then  finish with press enter : ").split()]
+        print("your numbers :  ",list)
+        a=int (len(list))
+        i=1
+        f=0
+
+        while i < a:
+            if(list[i] <= list[i - 1]):
+                f = 1
+            i += 1
+            
+
+        if (f==0) :
+            print ("List is sorted")
+        else :
+            print (" List is not sorted")
+        i=int(input(" again : please insert 1  : "))
+
+    else :
+        print("Bye ")
+        break

@@ -1,0 +1,15 @@
+
+print('enter a number:')
+user=input()
+x=len(user)
+sum=0
+n_int=int(user)
+
+for i in range(x) :
+    n=int(user[i])
+    sum =n**x+sum
+    
+if sum ==n_int:
+    print(' YES it is an Armstrong number')
+else:
+    print(' NO it is not an Aarmstrong number')
